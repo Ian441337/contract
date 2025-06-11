@@ -56,6 +56,7 @@ public class Contract {
         ModItems.register(modEventBus);
         ModBlock.register(modEventBus);
 
+        modEventBus.addListener(this::addCreative);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -70,6 +71,15 @@ public class Contract {
         LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+    }
+
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.CONTRACT);
+            event.accept(ModItems.DEATH_CONTRACT);
+            event.accept(ModItems.BLOOD_CONTRACT);
+            event.accept(ModItems.ENDER_CONTRACT);
+        }
     }
 
 

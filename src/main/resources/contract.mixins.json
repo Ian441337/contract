@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ovh.glitchlabs.contract.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "contract.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

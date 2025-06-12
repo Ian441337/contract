@@ -76,9 +76,11 @@ public class Contract {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.CONTRACT);
-            event.accept(ModItems.DEATH_CONTRACT);
             event.accept(ModItems.BLOOD_CONTRACT);
             event.accept(ModItems.ENDER_CONTRACT);
+            event.accept(ModItems.DEATH_CONTRACT);
+            event.accept(ModItems.REVENGE_CONTRACT);
+            event.accept(ModItems.GUARDIAN_ANGEL_CONTRACT);
         }
     }
 

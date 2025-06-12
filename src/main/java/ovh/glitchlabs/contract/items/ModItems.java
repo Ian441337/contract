@@ -21,6 +21,9 @@ public class ModItems {
     public static final DeferredItem<Item> DEATH_CONTRACT = ITEMS.register("death_contract",
             () -> new DeathContractItem(new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<Item> REVENGE_CONTRACT = ITEMS.register("revenge_contract",
+            () -> new RevengeContractItem(new Item.Properties().stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

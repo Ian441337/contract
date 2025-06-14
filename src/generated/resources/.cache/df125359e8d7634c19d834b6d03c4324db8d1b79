@@ -1,5 +1,17 @@
-// 1.21.1	2025-06-11T22:29:16.384216362	Item Models: contract
+// 1.21.1	2025-06-14T16:47:06.999979704	Item Models: contract
+2a4234623a85a20e133eb3d9be8e20aa4fc02605 assets/contract/models/item/blind_contract.json
 8c809622be3ffdf9ce508e9fdb942f60990e9794 assets/contract/models/item/blood_contract.json
 ce363500a469428202aafc38a18aa37a5b2f56b8 assets/contract/models/item/contract.json
+a5e62cfe2439f1e98ba0b07b65fef7c0d2e27dec assets/contract/models/item/curse_contract.json
 b5791d6a95e530e4d2a323e3632af40ad1273098 assets/contract/models/item/death_contract.json
 d396bc60d7403a0b9e387ae2207f8f46083eba87 assets/contract/models/item/ender_contract.json
+8eaa2b4af703a553c80abb1745c653ac9cd9ee27 assets/contract/models/item/freeze_contract.json
+6b22755043d0fe782ab36ab7913b03103a71e661 assets/contract/models/item/gravity_contract.json
+9f63956ee7356ccd160b11001cbf3b5a70b8fdfe assets/contract/models/item/hunger_contract.json
+af8cdb97fe51c0a4915cc71108fef0e4219ff554 assets/contract/models/item/levitation_contract.json
+e4a32556c17eb0fc8d5ca363d4d392c09aca68ab assets/contract/models/item/link_contract.json
+fd075a415489355196527cd67ea37cc1cffab1b7 assets/contract/models/item/poison_contract.json
+4d0a2fda05e816001a6ab47e1f6f4e5c91aefbf8 assets/contract/models/item/revenge_contract.json
+408b7bb14d990acf88475e507d7cb57eaf9a3e65 assets/contract/models/item/storm_contract.json
+eb2912a50ee373e399033db7aa9baae5859e4ad3 assets/contract/models/item/swap_contract.json
+782e5dd87ec888bb74648b23b1774b6200c1483d assets/contract/models/item/time_contract.json

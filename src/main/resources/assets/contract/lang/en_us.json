@@ -3,5 +3,9 @@
   "item.contract.blood_contract": "Contract",
   "item.contract.ender_contract": "Ender Contract",
   "item.contract.death_contract": "Death Contract",
-  "item.contract.revenge_contract": "Revenge Contract"
+  "item.contract.revenge_contract": "Revenge Contract",
+  "item.contract.swap_contract": "Swap Contract",
+  "item.contract.link_contract": "Link Contract",
+  "item.contract.freeze_contract": "Freeze Contract",
+  "item.contract.curse_contract": "Curse Contract"
 }

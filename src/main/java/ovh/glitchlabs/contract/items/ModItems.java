@@ -36,6 +36,12 @@ public class ModItems {
     public static final DeferredItem<Item> FREEZE_CONTRACT = ITEMS.register("freeze_contract",
             () -> new FreezeContractItem(new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<Item> BLIND_CONTRACT = ITEMS.register("blind_contract",
+            () -> new BlindContractItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> POISON_CONTRACT = ITEMS.register("poison_contract",
+            () -> new PoisonContractItem(new Item.Properties().stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

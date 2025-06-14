@@ -7,5 +7,7 @@
   "item.contract.swap_contract": "Swap Contract",
   "item.contract.link_contract": "Link Contract",
   "item.contract.freeze_contract": "Freeze Contract",
+  "item.contract.blind_contract": "Blind Contract",
+  "item.contract.poison_contract": "Poisen Contract",
   "item.contract.curse_contract": "Curse Contract"
 }

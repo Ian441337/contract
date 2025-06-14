@@ -84,6 +84,8 @@ public class Contract {
             event.accept(ModItems.CURSE_CONTRACT);
             event.accept(ModItems.LINK_CONTRACT);
             event.accept(ModItems.FREEZE_CONTRACT);
+            event.accept(ModItems.BLIND_CONTRACT);
+            event.accept(ModItems.POISON_CONTRACT);
         }
     }
 

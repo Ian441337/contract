@@ -80,7 +80,10 @@ public class Contract {
             event.accept(ModItems.ENDER_CONTRACT);
             event.accept(ModItems.DEATH_CONTRACT);
             event.accept(ModItems.REVENGE_CONTRACT);
-            event.accept(ModItems.GUARDIAN_ANGEL_CONTRACT);
+            event.accept(ModItems.SWAP_CONTRACT);
+            event.accept(ModItems.CURSE_CONTRACT);
+            event.accept(ModItems.LINK_CONTRACT);
+            event.accept(ModItems.FREEZE_CONTRACT);
         }
     }
 

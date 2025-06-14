@@ -24,6 +24,18 @@ public class ModItems {
     public static final DeferredItem<Item> REVENGE_CONTRACT = ITEMS.register("revenge_contract",
             () -> new RevengeContractItem(new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<Item> SWAP_CONTRACT = ITEMS.register("swap_contract",
+            () -> new SwapContractItem(new Item.Properties().stacksTo(1)));
+    
+    public static final DeferredItem<Item> CURSE_CONTRACT = ITEMS.register("curse_contract",
+            () -> new CurseContractItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> LINK_CONTRACT = ITEMS.register("link_contract",
+            () -> new LinkContractItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> FREEZE_CONTRACT = ITEMS.register("freeze_contract",
+            () -> new FreezeContractItem(new Item.Properties().stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

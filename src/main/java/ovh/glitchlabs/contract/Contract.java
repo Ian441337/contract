@@ -86,6 +86,11 @@ public class Contract {
             event.accept(ModItems.FREEZE_CONTRACT);
             event.accept(ModItems.BLIND_CONTRACT);
             event.accept(ModItems.POISON_CONTRACT);
+            event.accept(ModItems.HUNGER_CONTRACT);
+            event.accept(ModItems.LEVITATION_CONTRACT);
+            event.accept(ModItems.GRAVITY_CONTRACT);
+            event.accept(ModItems.STORM_CONTRACT);
+            event.accept(ModItems.TIME_CONTRACT);
         }
     }
 

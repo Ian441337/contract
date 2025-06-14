@@ -17,5 +17,17 @@ public class ModItemProvidor extends ItemModelProvider {
         basicItem(ModItems.BLOOD_CONTRACT.get());
         basicItem(ModItems.DEATH_CONTRACT.get());
         basicItem(ModItems.ENDER_CONTRACT.get());
+        basicItem(ModItems.FREEZE_CONTRACT.get());
+        basicItem(ModItems.GRAVITY_CONTRACT.get());
+        basicItem(ModItems.POISON_CONTRACT.get());
+        basicItem(ModItems.CURSE_CONTRACT.get());
+        basicItem(ModItems.LINK_CONTRACT.get());
+        basicItem(ModItems.HUNGER_CONTRACT.get());
+        basicItem(ModItems.LEVITATION_CONTRACT.get());
+        basicItem(ModItems.STORM_CONTRACT.get());
+        basicItem(ModItems.SWAP_CONTRACT.get());
+        basicItem(ModItems.TIME_CONTRACT.get());
+        basicItem(ModItems.REVENGE_CONTRACT.get());
+        basicItem(ModItems.BLIND_CONTRACT.get());
     }
 }

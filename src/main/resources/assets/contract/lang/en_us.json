@@ -8,6 +8,11 @@
   "item.contract.link_contract": "Link Contract",
   "item.contract.freeze_contract": "Freeze Contract",
   "item.contract.blind_contract": "Blind Contract",
-  "item.contract.poison_contract": "Poisen Contract",
-  "item.contract.curse_contract": "Curse Contract"
+  "item.contract.poison_contract": "Poison Contract",
+  "item.contract.curse_contract": "Curse Contract",
+  "item.contract.hunger_contract": "Hunger Contract",
+  "item.contract.levitation_contract": "Levitation Contract",
+  "item.contract.gravity_contract": "Gravity Contract",
+  "item.contract.storm_contract": "Storm Contract",
+  "item.contract.time_contract": "Time Contract"
 }

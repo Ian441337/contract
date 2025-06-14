@@ -42,6 +42,21 @@ public class ModItems {
     public static final DeferredItem<Item> POISON_CONTRACT = ITEMS.register("poison_contract",
             () -> new PoisonContractItem(new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<Item> HUNGER_CONTRACT = ITEMS.register("hunger_contract",
+            () -> new HungerContractItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> LEVITATION_CONTRACT = ITEMS.register("levitation_contract",
+            () -> new LevitationContractItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> GRAVITY_CONTRACT = ITEMS.register("gravity_contract",
+            () -> new GravityContractItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> STORM_CONTRACT = ITEMS.register("storm_contract",
+            () -> new StormContractItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> TIME_CONTRACT = ITEMS.register("time_contract",
+            () -> new TimeContractItem(new Item.Properties().stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
